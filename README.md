@@ -37,11 +37,19 @@ Shell     : zsh + git
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tai-TZ&theme=tokyonight&hide_border=true" alt="Streak Stats" />
 </p>
 
+<p align="center">
+  <picture data-importer="pacman">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph.svg?game=pacman">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  </picture>
+</p>
+
 <br/>
 
 <p align="center">
-  <a href="mailto:quan.shsoftvina@gmail.com">
-    <img src="https://img.shields.io/badge/Email-quan.shsoftvina%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:n.t.tai435@gmail.com">
+    <img src="https://img.shields.io/badge/Email-n.t.tai435%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/se-nttai/">
     <img src="https://img.shields.io/badge/LinkedIn-se--nttai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
