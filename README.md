@@ -29,24 +29,13 @@ Shell     : zsh + git
 <br/>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tai-TZ&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tai-TZ&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=Tai-TZ&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Tai-TZ&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tai-TZ&theme=tokyonight&hide_border=true" alt="Streak Stats" />
 </p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tai-TZ&theme=tokyonight&no-frame=true&row=1&margin-w=15" alt="Trophies" />
-</p>
-
-### 🚀 Featured Projects
-
-- [**aulacys**](https://github.com/Tai-TZ/aulacys) — TypeScript
-- [**e-commerce-website**](https://github.com/Tai-TZ/e-commerce-website) — Đồ án lập trình ứng dụng 2
-- [**vinwonders-instay-concierge**](https://github.com/Tai-TZ/vinwonders-instay-concierge) — TypeScript
-- [**vinwonders-react-agent**](https://github.com/Tai-TZ/vinwonders-react-agent) — TypeScript
 
 <br/>
 
