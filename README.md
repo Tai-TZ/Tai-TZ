@@ -38,15 +38,6 @@
 <br/>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Tai-TZ&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Tai-TZ&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tai-TZ&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-</p>
-
-<p align="center">
   <picture data-importer="pacman">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph.svg?game=pacman">

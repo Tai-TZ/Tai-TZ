@@ -1,36 +1,32 @@
-<svg width="560" height="452" viewBox="0 0 560 452" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'Cascadia Code', 'Courier New', monospace">
-  <rect width="560" height="452" rx="14" fill="#1a1b26"/>
-  <rect x="1" y="1" width="558" height="450" rx="13" fill="none" stroke="#292e42" stroke-width="1"/>
+<svg width="560" height="320" viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'Cascadia Code', 'Courier New', monospace">
+  <rect width="560" height="320" rx="14" fill="#1a1b26"/>
+  <rect x="1" y="1" width="558" height="318" rx="13" fill="none" stroke="#292e42" stroke-width="1"/>
 
   <text x="28" y="46" font-size="18" font-weight="700" fill="#7aa2f7">tai@Tai-TZ</text>
   <text x="28" y="66" font-size="14" fill="#565f89" xml:space="preserve">------------------</text>
 
   <g font-size="14" xml:space="preserve">
-    <text x="28" y="94"><tspan fill="#bb9af7" font-weight="700">OS        : </tspan><tspan fill="#c0caf5">Hanoi Linux x86_64</tspan></text>
-    <text x="28" y="116"><tspan fill="#bb9af7" font-weight="700">Host      : </tspan><tspan fill="#c0caf5">AI Engineer Workstation</tspan></text>
-    <text x="28" y="138"><tspan fill="#bb9af7" font-weight="700">Kernel    : </tspan><tspan fill="#c0caf5">LLM-Agent 5.20-langgraph</tspan></text>
-    <text x="28" y="160"><tspan fill="#bb9af7" font-weight="700">Uptime    : </tspan><tspan fill="#c0caf5">Always learning</tspan></text>
-    <text x="28" y="182"><tspan fill="#bb9af7" font-weight="700">Packages  : </tspan><tspan fill="#c0caf5">39 repos (git)</tspan></text>
-    <text x="28" y="204"><tspan fill="#bb9af7" font-weight="700">Shell     : </tspan><tspan fill="#c0caf5">zsh 5.9</tspan></text>
-    <text x="28" y="226"><tspan fill="#bb9af7" font-weight="700">Resolution: </tspan><tspan fill="#c0caf5">Full-Stack</tspan></text>
-    <text x="28" y="248"><tspan fill="#bb9af7" font-weight="700">WM        : </tspan><tspan fill="#c0caf5">VS Code</tspan></text>
-    <text x="28" y="270"><tspan fill="#bb9af7" font-weight="700">WM Theme  : </tspan><tspan fill="#c0caf5">Tokyonight</tspan></text>
-    <text x="28" y="292"><tspan fill="#bb9af7" font-weight="700">Icons     : </tspan><tspan fill="#c0caf5">Skillicons [Flat]</tspan></text>
-    <text x="28" y="314"><tspan fill="#bb9af7" font-weight="700">Terminal  : </tspan><tspan fill="#c0caf5">zsh + git</tspan></text>
-    <text x="28" y="336"><tspan fill="#bb9af7" font-weight="700">Term Font : </tspan><tspan fill="#c0caf5">Fira Code 12</tspan></text>
-    <text x="28" y="358"><tspan fill="#bb9af7" font-weight="700">CPU       : </tspan><tspan fill="#c0caf5">Problem Solver (8) @ 3.8GHz</tspan></text>
-    <text x="28" y="380"><tspan fill="#bb9af7" font-weight="700">GPU       : </tspan><tspan fill="#c0caf5">LangGraph Reasoning Engine</tspan></text>
-    <text x="28" y="402"><tspan fill="#bb9af7" font-weight="700">Memory    : </tspan><tspan fill="#c0caf5">Coffee / Unlimited MiB</tspan></text>
+    <text x="28" y="94"><tspan fill="#bb9af7" font-weight="700">OS     : </tspan><tspan fill="#c0caf5">Hanoi Linux x86_64</tspan></text>
+    <text x="28" y="116"><tspan fill="#bb9af7" font-weight="700">Host   : </tspan><tspan fill="#c0caf5">AI Engineer Workstation</tspan></text>
+    <text x="28" y="138"><tspan fill="#bb9af7" font-weight="700">Kernel : </tspan><tspan fill="#c0caf5">LLM-Agent 5.20-langgraph</tspan></text>
+    <text x="28" y="160"><tspan fill="#bb9af7" font-weight="700">Shell  : </tspan><tspan fill="#c0caf5">zsh + git</tspan></text>
+    <text x="28" y="182"><tspan fill="#bb9af7" font-weight="700">WM     : </tspan><tspan fill="#c0caf5">VS Code [Tokyonight]</tspan></text>
+    <text x="28" y="204"><tspan fill="#bb9af7" font-weight="700">CPU    : </tspan><tspan fill="#c0caf5">Problem Solver (8) @ 3.8GHz</tspan></text>
+    <text x="28" y="226"><tspan fill="#bb9af7" font-weight="700">GPU    : </tspan><tspan fill="#c0caf5">LangGraph Reasoning Engine</tspan></text>
+    <text x="28" y="248"><tspan fill="#bb9af7" font-weight="700">Memory : </tspan><tspan fill="#c0caf5">Coffee / Unlimited MiB</tspan></text>
   </g>
 
   <g>
-    <rect x="28" y="420" width="28" height="18" rx="4" fill="#15161e"/>
-    <rect x="60" y="420" width="28" height="18" rx="4" fill="#f7768e"/>
-    <rect x="92" y="420" width="28" height="18" rx="4" fill="#9ece6a"/>
-    <rect x="124" y="420" width="28" height="18" rx="4" fill="#e0af68"/>
-    <rect x="156" y="420" width="28" height="18" rx="4" fill="#7aa2f7"/>
-    <rect x="188" y="420" width="28" height="18" rx="4" fill="#bb9af7"/>
-    <rect x="220" y="420" width="28" height="18" rx="4" fill="#7dcfff"/>
-    <rect x="252" y="420" width="28" height="18" rx="4" fill="#a9b1d6"/>
+    <rect x="28" y="274" width="28" height="18" rx="4" fill="#15161e"/>
+    <rect x="60" y="274" width="28" height="18" rx="4" fill="#f7768e"/>
+    <rect x="92" y="274" width="28" height="18" rx="4" fill="#9ece6a"/>
+    <rect x="124" y="274" width="28" height="18" rx="4" fill="#e0af68"/>
+    <rect x="156" y="274" width="28" height="18" rx="4" fill="#7aa2f7"/>
+    <rect x="188" y="274" width="28" height="18" rx="4" fill="#bb9af7"/>
+    <rect x="220" y="274" width="28" height="18" rx="4" fill="#7dcfff"/>
+    <rect x="252" y="274" width="28" height="18" rx="4" fill="#a9b1d6"/>
   </g>
+
+  <text x="464" y="212" font-size="110" font-weight="700" fill="#bb9af7" fill-opacity="0.35" text-anchor="middle">&lt;/&gt;</text>
+  <text x="460" y="208" font-size="110" font-weight="700" fill="#7aa2f7" fill-opacity="0.95" text-anchor="middle">&lt;/&gt;</text>
 </svg>
