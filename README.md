@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/main/assets/neofetch-card.svg?v=3" alt="neofetch style card" />
+  <img src="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/main/assets/neofetch-card-v2.svg" alt="neofetch style card" />
 </p>
 
 <p align="center">
