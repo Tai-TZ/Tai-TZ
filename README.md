@@ -1,10 +1,3 @@
-<h1 align="center">Hi 👋, I'm Nguyen Thanh Tai</h1>
-<h3 align="center">Software / AI Engineer · Hanoi, Vietnam</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+%2F+AI+Engineer;Building+LLM+Agents+with+LangChain+%26+LangGraph;Full-stack+dev+%E2%80%94+React+%2F+Angular+%2F+TypeScript;Always+learning+something+new" alt="Typing SVG" />
-</p>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/main/assets/neofetch-card-v2.svg" alt="neofetch style card" width="100%" />
 </p>
