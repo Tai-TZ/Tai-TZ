@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Hi, I'm Nguyen Thanh Tai: Software / AI Engineer in Hanoi building LLM agents with LangChain and LangGraph" width="100%"/>
+<img src="assets/masthead.svg" alt="Nguyen Thanh Tai: Building LLM agents with LangChain and LangGraph. Software / AI engineer in Hanoi." width="100%"/>
 
 <br/><br/>
 
-<img src="assets/agent-trace.svg" alt="About me, streamed as a LangGraph run: whoami, location, focus, stack, habits, runtime" width="100%"/>
+<img src="assets/about.svg" alt="About me as an agent graph: whoami, location (Hanoi, Vietnam), focus (LLM agents with LangChain and LangGraph), stack (Python, TypeScript, PyTorch, FastAPI), habits (VS Code, zsh, Tokyo Night), runtime: always learning" width="100%"/>
 
 <br/><br/>
 
-<img src="assets/stack.svg" alt="Tech stack as a 3D keyboard: Python, TypeScript, JavaScript, C, HTML, CSS, PyTorch, TensorFlow, Keras, scikit-learn, NumPy, SciPy, LangChain, LangGraph, LLM Agents, FastAPI, Django, Flask, Node.js, React, Angular, MySQL, SQLite, Git, GitHub, VS Code, Anaconda" width="100%"/>
+<img src="assets/stack.svg" alt="Tech stack by layer: Python, TypeScript, JavaScript, C; LangChain, LangGraph, LLM agents; PyTorch, TensorFlow, Keras, scikit-learn, NumPy, Pandas, SciPy; FastAPI, Django, Flask, Node.js; React, Angular, HTML, CSS; MySQL, SQLite; Git, GitHub, VS Code, Anaconda" width="100%"/>
 
 <br/><br/>
 
@@ -22,4 +22,4 @@
 
 </div>
 
-<!-- Static cards: python scripts/build.py · Skyline: .github/workflows/skyline.yml redraws it daily from the contribution calendar. -->
+<!-- Figures: python scripts/build.py · masthead: python scripts/build_masthead.py · skyline: .github/workflows/skyline.yml (daily). -->

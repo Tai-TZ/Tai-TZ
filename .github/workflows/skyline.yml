@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
 
       - name: render skyline.svg from the contribution calendar
-        run: python scripts/skyline.py --user "${{ github.repository_owner }}" --out dist/skyline.svg
+        run: python scripts/skyline.py --user "${{ github.repository_owner }}" --out dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
