@@ -139,8 +139,9 @@ class Diagram:
         source: str = "",
         ticker: tuple[str, ...] = (),
         aria: str = "",
+        width: int = W,
     ) -> None:
-        self.name, self.w, self.h = name, W, height
+        self.name, self.w, self.h = name, width, height
         self.aria = aria or f"{title}. {deck}"
         self.defs: list[str] = []
         self.layers: dict[str, list[str]] = {k: [] for k in self.LAYERS}
