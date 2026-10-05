@@ -1,50 +1,25 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/main/assets/neofetch-card-v3.svg" alt="neofetch style card" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,angular,py,pytorch,html,css,nodejs,git,github,vscode" alt="Skills" />
-</p>
+<img src="assets/hero.svg" alt="Hi, I'm Nguyen Thanh Tai: Software / AI Engineer in Hanoi building LLM agents with LangChain and LangGraph" width="100%"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LLM%20Agents-4B8BBE?style=for-the-badge" />
-</p>
+<br/><br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+<img src="assets/agent-trace.svg" alt="About me, streamed as a LangGraph run: whoami, location, focus, stack, habits, runtime" width="100%"/>
 
-<br/>
+<br/><br/>
 
-<p align="center">
-  <picture data-importer="pacman">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph.svg?game=pacman">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  </picture>
-</p>
+<img src="assets/stack.svg" alt="Tech stack as a 3D keyboard: Python, TypeScript, JavaScript, C, HTML, CSS, PyTorch, TensorFlow, Keras, scikit-learn, NumPy, SciPy, LangChain, LangGraph, LLM Agents, FastAPI, Django, Flask, Node.js, React, Angular, MySQL, SQLite, Git, GitHub, VS Code, Anaconda" width="100%"/>
 
-<br/>
+<br/><br/>
 
-<p align="center">
-  <a href="mailto:n.t.tai435@gmail.com">
-    <img src="https://img.shields.io/badge/Email-n.t.tai435%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/se-nttai/">
-    <img src="https://img.shields.io/badge/LinkedIn-se--nttai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+<img src="https://raw.githubusercontent.com/Tai-TZ/Tai-TZ/output/skyline.svg" alt="My GitHub contributions over the last year as a 3D skyline, with streak stats" width="100%"/>
+
+<br/><br/>
+
+<a href="mailto:n.t.tai435@gmail.com"><img src="assets/btn-email.svg" alt="Email: n.t.tai435@gmail.com" height="64"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/se-nttai/"><img src="assets/btn-linkedin.svg" alt="LinkedIn: se-nttai" height="64"/></a>
+
+</div>
+
+<!-- Static cards: python scripts/build.py · Skyline: .github/workflows/skyline.yml redraws it daily from the contribution calendar. -->
