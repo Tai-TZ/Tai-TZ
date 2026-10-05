@@ -98,7 +98,7 @@ def render(calendar: dict, user: str) -> Diagram:
         fig="3.0",
         kicker="COMMITS",
         source=f"@{user} · updated {date.today().isoformat()}",
-        ticker=(f"{total:,} CONTRIBUTIONS", f"{active} ACTIVE DAYS", "REDRAWN EVERY 6H", "GITHUB ACTIONS"),
+        ticker=(f"{total:,} CONTRIBUTIONS", f"{active} ACTIVE DAYS", "REDRAWN DAILY", "GITHUB ACTIONS"),
         aria=f"{user}'s contributions over the last year as a 3D skyline: {total} contributions, {active} active days, "
         f"current streak {current} days, longest streak {longest} days.",
     )

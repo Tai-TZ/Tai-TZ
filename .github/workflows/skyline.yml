@@ -2,7 +2,7 @@ name: contribution skyline
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # every 6 hours
+    - cron: "59 4 * * *"  # 11:59 Hanoi time (UTC+7) every day
   workflow_dispatch:
   push:
     branches:
