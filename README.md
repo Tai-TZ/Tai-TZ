@@ -26,4 +26,4 @@
 
 </div>
 
-<!-- Figures: python scripts/build.py · masthead: python scripts/build_masthead.py · skyline: .github/workflows/skyline.yml (daily at 11:59 Hanoi time). -->
+<!-- Figures: python scripts/build.py · masthead: python scripts/build_masthead.py · skyline: .github/workflows/skyline.yml (every 6 hours). -->
