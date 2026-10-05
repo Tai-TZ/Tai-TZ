@@ -1,6 +1,6 @@
 """Build the static newsprint figures for the profile README.
 
-    python scripts/build.py              # about, listing, project cards, stack, contact buttons
+    python scripts/build.py              # about, listing, stack, contact buttons
     python scripts/build_masthead.py     # masthead.svg (needs fonttools + uharfbuzz)
 
 The skyline is dynamic and rendered by scripts/skyline.py from a GitHub Action.
@@ -11,7 +11,7 @@ from __future__ import annotations
 import re
 from html import escape
 
-from newsprint import ISO, LIGHT, MONO, OUT_DIR, W, Box, Diagram, _chip, _chip_w, cols, mono_w, pts
+from newsprint import LIGHT, MONO, OUT_DIR, W, Box, Diagram, _chip, _chip_w, cols, mono_w, pts
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Helpers on top of the Arionear kit
@@ -235,107 +235,6 @@ def listing() -> Diagram:
 
 
 # ---------------------------------------------------------------------------------------------------------------------
-# Project cards — each a small front page, linked from the README
-# ---------------------------------------------------------------------------------------------------------------------
-
-CARD_W, CARD_H = 510, 560
-CHIPS_Y = 452
-
-
-def arionear_card() -> Diagram:
-    d = Diagram(
-        "project-arionear",
-        CARD_H,
-        width=CARD_W,
-        title="Arionear",
-        deck="AI-assisted LaTeX editor for scientific papers",
-        desk="PROJECT DESK",
-        fig="P.1",
-        kicker="FLAGSHIP",
-        source="TypeScript · Python",
-        ticker=("HUMAN GATE", "DIFF REVIEW", "OPEN REPO →"),
-        aria="Project Arionear: AI-assisted LaTeX editor. The author asks the Ario agent, every edit comes back as a diff "
-        "to accept or reject, then compiles to PDF. FastAPI, LangGraph, React 19, PostgreSQL.",
-    )
-    cy = 305
-    xs = (78, 190, 312, 440)
-    author = d.block(xs[0], cy, code="USR", title="author", sub="asks Ario", mono_title=True)
-    ario = d.block(xs[1], cy, code="ARIO", title="agent", sub="LangGraph", key=True, pulse=True, mono_title=True)
-    doc = d.block(xs[2], cy, hw=46, bh=10, title="paper.tex", sub="diff · accept", mono_title=True)
-    pdf = d.block(xs[3], cy, code="PDF", title="compile", sub="SyncTeX", mono_title=True)
-    # Diff lines printed on the paper's top face: one struck in red, one being typed in ink.
-    a = doc.hw / 1.732
-    lines = []
-    for k in range(5):
-        v = -a + 7 + k * (2 * a - 14) / 4
-        if k == 2:
-            lines.append(f'<path d="M {-a + 7:.1f} {v:.1f} H {a - 9:.1f}" stroke="var(--rd)" stroke-width="2.2"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></path>')
-        elif k == 3:
-            lines.append(f'<path d="M {-a + 7:.1f} {v:.1f} H {a - 14:.1f}" class="ln" stroke-width="2.2" pathLength="1" stroke-dasharray="1 1"><animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;.5;1" dur="2.4s" repeatCount="indefinite"/></path>')
-        else:
-            lines.append(f'<path d="M {-a + 7:.1f} {v:.1f} H {a - 7 - (k % 2) * 8:.1f}" class="ln" stroke-opacity=".55" stroke-width="2"/>')
-    d.add("blocks", f'<g transform="matrix(.866 .5 -.866 .5 {doc.x:.1f} {doc.cy:.1f})">{"".join(lines)}</g>')
-    for a_, b_, label in ((author, ario, "prompt"), (ario, doc, "diff"), (doc, pdf, "build")):
-        d.link(a_, b_, label=label)
-    path = f"M {author.right[0] + 8:.1f} {author.right[1]:.1f} H {pdf.left[0] - 10:.1f}"
-    for i in range(3):
-        d.packet(path, 4.2, i * 1.4)
-    x = 40.0
-    for chip in ("FastAPI", "LangGraph", "React 19", "PostgreSQL"):
-        w = _chip_w(chip)
-        _chip(d, x, CHIPS_Y, w, chip, h=28, bullet=False)
-        x += w + 10
-    return d
-
-
-def talent_hub_card() -> Diagram:
-    d = Diagram(
-        "project-talent-hub",
-        CARD_H,
-        width=CARD_W,
-        title="Talent Hub",
-        deck="Admissions & training quality, AI-assisted",
-        desk="PROJECT DESK",
-        fig="P.2",
-        kicker="PLATFORM",
-        source="Python · TypeScript",
-        ticker=("RLS", "HUMAN-IN-THE-LOOP", "OPEN REPO →"),
-        aria="Project Talent Hub: admissions and training-quality platform for cohort programmes. 20,000 applications, "
-        "AI triage with verifiable evidence, humans decide, outcomes feed the next intake. FastAPI, Next.js 16, PostgreSQL RLS.",
-    )
-    layers = (
-        ("APPLY", "20,000 applications", 50, False),
-        ("AI", "triage with evidence", 43, False),
-        ("HUMAN", "people decide", 37, True),
-        ("COHORT", "outcomes → next intake", 31, False),
-    )
-    x, cy0, bh = 112, 228, 11
-    cys = [cy0]
-    for i in range(1, len(layers)):  # exploded view: every top face stays visible above the slab below
-        cys.append(cys[-1] + (layers[i - 1][2] + layers[i][2]) * ISO + bh + 2)
-    for i in reversed(range(len(layers))):  # lowest slab first so upper slabs sit in front
-        code, _l, hw, key = layers[i]
-        d.block(x, cys[i], hw=hw, bh=bh, code=code, key=key, pulse=key)
-    for i, (_code, label, hw, _key) in enumerate(layers):
-        cy = cys[i]
-        d.edge(f"M {x + hw + 8} {cy + bh / 2:.1f} H 214", arrow=False, dotted=True)
-        d.text(224, cy + bh / 2 - 2, f"{i + 1:02d}", cls="m r", weight=700)
-        d.text(254, cy + bh / 2 - 2, label, cls="u i", weight=700 if i == 2 else None)
-    # Applications fall through the funnel; a dotted loop carries outcomes back to the top.
-    fall = f"M {x} {cy0 - 40} V {cys[-1] + 34}"
-    for i in range(4):
-        d.packet(fall, 3.2, i * 0.8, size=4.5)
-    d.edge(f"M {x - 40} {cys[-1] + 8:.1f} H {x - 64} V {cy0 + 4} H {x - 58}", dotted=True)
-    d.text(x - 64, (cy0 + cys[-1]) / 2, "learn", cls="m q", anchor="middle", halo=True)
-    xx = 40.0
-    for chip in ("FastAPI", "Next.js 16", "PostgreSQL RLS", "LLM"):
-        w = _chip_w(chip)
-        _chip(d, xx, CHIPS_Y, w, chip, h=28, bullet=False)
-        xx += w + 10
-    return d
-
-
-# ---------------------------------------------------------------------------------------------------------------------
 # FIG. 2.0 — tech stack: slabs drop in and assemble, chip rows slide in
 # ---------------------------------------------------------------------------------------------------------------------
 
@@ -425,7 +324,7 @@ def button(tag: str, value: str) -> str:
 
 
 def main() -> None:
-    for fig in (about(), listing(), arionear_card(), talent_hub_card(), stack()):
+    for fig in (about(), listing(), stack()):
         print("wrote", fig.save().name)
     for name, tag, value in (("btn-email", "EMAIL", "n.t.tai435@gmail.com"), ("btn-linkedin", "LINKEDIN", "in/se-nttai")):
         (OUT_DIR / f"{name}.svg").write_text(button(tag, value), encoding="utf-8", newline="\n")
